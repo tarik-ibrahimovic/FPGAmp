@@ -4,6 +4,7 @@ Customizable FPGA-Powered Guitar Amp and Effects.
  Below is a block diagram representing the proposed concept of a system which takes in a Line In signal from the electric guitar, hands it off to the FPGA, ending with a class-D Amplifier and a speaker. 
 
 In addition to handling guitar sound processing, the FPGA is linked to a PC via UART. This connection facilitates audio recording at 44.1 kHz and provides access to effect parameters through a GUI program, akin to traditional guitar amplifiers.
+
 ![System block diagram](/0.doc/block_diagram.png)
 ## Prerequisites
 ## Target platform and hardware
